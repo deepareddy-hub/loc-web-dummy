@@ -426,10 +426,13 @@ button:hover {
   overflow: hidden;
   border: 1px solid rgb(255,0,0);
 }
-
+.rounded-circle{
+  width: 50px;
+  clip-path: circle;
+}
 .zoomin img {
-  height: 200px;
-  width: 200px;
+  height: 50px;
+  width: 50px;
   -webkit-transition: all .2s ease;
   -moz-transition: all .2s ease;
   -ms-transition: all .2s ease;
